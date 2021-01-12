@@ -1,37 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<header class="wrapper">
- 
-     
-   
-    <nav>
-        <img src="./images/TP_Freelancer_logo.jpg" alt="logo" ></img>
-        <ul>
-            <li>Clients</li>
-            <li>Missions</li>
-            <button type="submit">Devis et Factures</button>
-        </ul>
-    </nav>
-</header>
-<div class="gestion"
-     <h1>Gestion des clients</h1>
-    <h3>Dernier client ajouté/modifié : "#"</h3>
-    <button >    
 
-    </button>
-</div>
+<body class="conteneur">
+    <header class="wrapper">
 
-   
-    <h2>Clients enregistrés</h2>
-   
 
-<footer>@ Copyright 2021-HAMZA reda</footer>
+
+        <nav>
+            <img src="./images/TP_Freelancer_logo.jpg" alt="logo"></img>
+            <ul>
+                <li>Clients</li>
+                <li>Missions</li>
+
+            </ul>
+            <button class="devis" type="submit">Devis et Factures</button>
+        </nav>
+    </header>
+    <div class="gestion">
+        <h1>Gestion des clients</h1>
+        <h3>Dernier client ajouté/modifié : "#"</h3>
+        <button class="ajout" type="submit">
+            + Ajouter un nouveau client
+        </button>
+    </div>
+
+    <div class="tab">
+        <h2>Clients enregistrés</h2>
+        <table>
+            <tr id="one">
+                <td>Id</td>
+                <td>Name </td>
+                <td>Email </td>
+                <td>Actions</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Marc Zoukerbergue </td>
+                <td>mark@gmail.com </td>
+                <td>ok effacer</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="foot">
+        <p> @Copyright 2021-HAMZA reda</p>
+    </footer>
 </body>
+
 </html>
