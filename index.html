@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="conteneur">
+<body>
     <header class="wrapper">
+        <div> <img src="./images/TP_Freelancer_logo.jpg" alt="logo"></img></div>
+        <div>
+            <nav class="nav" role="navigation">
 
 
+                <ul class="menu">
+                    <li> <a href="#">Clients</a> </li>
+                    <li> <a href="#">Missions</a> </li>
 
-        <nav>
-            <img src="./images/TP_Freelancer_logo.jpg" alt="logo"></img>
-            <ul>
-                <li>Clients</li>
-                <li>Missions</li>
+                </ul>
 
-            </ul>
-            <button class="devis" type="submit">Devis et Factures</button>
-        </nav>
+
+            </nav>
+        </div>
+        <div> <button class="devis" type="submit">Devis et Factures</button></div>
+
     </header>
     <div class="gestion">
         <h1>Gestion des clients</h1>
@@ -31,11 +35,12 @@
         </button>
     </div>
 
-    <div class="tab">
-        <h2>Clients enregistrés</h2>
+    <div class="one">
+
+        <h2 class="tab">Clients enregistrés</h2>
         <table>
-            <tr id="one">
-                <td>Id</td>
+            <tr id="two">
+                <th>Id</tth>
                 <td>Name </td>
                 <td>Email </td>
                 <td>Actions</td>
@@ -49,8 +54,15 @@
         </table>
     </div>
 
+<div class="links">
+
+    <a href="http://www.google.fr">Faire une recherche</a>
+</div>
+
+
     <footer class="foot">
-        <p> @Copyright 2021-HAMZA reda</p>
+        <h3>@Copyright 2021-HAMZA reda</h3>
+
     </footer>
 </body>
 
